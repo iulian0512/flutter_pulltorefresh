@@ -80,6 +80,7 @@ class RefreshLocalizations {
     'sv': SvRefreshString(),
     'pt': PtRefreshString(),
     'ko': KrRefreshString(),
+    'ro': RoRefreshString()
   };
 
   RefreshString get currentLocalization {
@@ -116,7 +117,8 @@ class RefreshLocalizationsDelegate
       'pt',
       'sv',
       'nl',
-      'es'
+      'es',
+      'ro'
     ].contains(locale.languageCode);
   }
 
@@ -166,6 +168,42 @@ abstract class RefreshString {
 
   /// no more data text
   String noMoreText;
+}
+
+//Romanian
+class RoRefreshString extends RefreshString {
+  @override
+  String canLoadingText = "Eliberati pentru a incarca";
+
+  @override
+  String canRefreshText = "Eliberati pentru a reincarca";
+
+  @override
+  String canTwoLevelText = "Release to enter secondfloor";
+
+  @override
+  String idleLoadingText = "Pull up Load more";
+
+  @override
+  String idleRefreshText = "Trageti pentru a reincarca";
+
+  @override
+  String loadFailedText = "Load Failed";
+
+  @override
+  String loadingText = "Loading…";
+
+  @override
+  String noMoreText = "No more data";
+
+  @override
+  String refreshCompleteText = "Refresh completed";
+
+  @override
+  String refreshFailedText = "Refresh failed";
+
+  @override
+  String refreshingText = "Refreshing…";
 }
 
 /// Chinese
