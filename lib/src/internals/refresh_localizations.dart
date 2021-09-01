@@ -173,37 +173,37 @@ abstract class RefreshString {
 //Romanian
 class RoRefreshString extends RefreshString {
   @override
-  String canLoadingText = "Eliberati pentru a incarca";
+  String? canLoadingText = "Eliberati pentru a incarca";
 
   @override
-  String canRefreshText = "Eliberati pentru a reincarca";
+  String? canRefreshText = "Eliberati pentru a reincarca";
 
   @override
-  String canTwoLevelText = "Release to enter secondfloor";
+  String? canTwoLevelText = "Release to enter secondfloor";
 
   @override
-  String idleLoadingText = "Pull up Load more";
+  String? idleLoadingText = "Pull up Load more";
 
   @override
-  String idleRefreshText = "Trageti pentru a reincarca";
+  String? idleRefreshText = "Trageti pentru a reincarca";
 
   @override
-  String loadFailedText = "Load Failed";
+  String? loadFailedText = "Load Failed";
 
   @override
-  String loadingText = "Loading…";
+  String? loadingText = "Loading…";
 
   @override
-  String noMoreText = "No more data";
+  String? noMoreText = "No more data";
 
   @override
-  String refreshCompleteText = "Refresh completed";
+  String? refreshCompleteText = "Refresh completed";
 
   @override
-  String refreshFailedText = "Refresh failed";
+  String? refreshFailedText = "Refresh failed";
 
   @override
-  String refreshingText = "Refreshing…";
+  String? refreshingText = "Refreshing…";
 }
 
 /// Chinese
